@@ -1,31 +1,224 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import 'react-multi-carousel/lib/styles.css';
+
+#companylogo {
+  color:  #6268b8;
+  font-weight: 500;
+  font-stretch: narrower;
+}
+ 
+nav span a{
+  color: #37393d;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#headertext {
+  padding-top: 15%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#headertext h1 {
+  color:  #6268b8;
+  font-weight: bold;
+  padding-bottom: 6%;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#headertext h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #3a3a3b;
+ 
+}
+#headertext p{
+  font-weight: 400;
+}
+
+#headerbutton{
+  background-color: #6268b8;
+  width: 40%;
+  padding-top: 5px ;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  border-radius: 40px;  
+  border: none;
+}
+#headerbutton a {
+  width: 150%;
+  color: azure;
+  font-size: 120%;
+}
+
+#headerbutton span{
+  padding-left: 5%;
+}
+
+#header{
+  padding-bottom: 20%;
+}
+#wmakeusunique{
+  padding-bottom: 7%;
+}
+
+#wmakeusunique h3, #studentworkat h3, #companystory h2{
+  color: #343435;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: #796ce9;
+  text-decoration-thickness: 4px;
+  line-height: 20px;
+  padding-bottom: 7%;
+}
+
+#studentworkat {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #f8f8ff;
+} 
+
+#companystory{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#contact{
+  padding-top: 2%;
+  background: -webkit-linear-gradient(left, #de6ad4, #55adef);
+  padding-bottom: 2%;
+}
+
+#contactform{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#contactformbutton {
+  margin-top: 3%;
+  width: 100%;
+  background: -webkit-linear-gradient(left, #4e57ca, #4e57ca);
+}
+
+#contactleftside{
+  padding-top: 8%;
+  color: white;
+}
+
+#contactleftside h2 {
+  padding-bottom: 2%;
+}
+
+#ppafooter{
+  padding-top: 2%;
+  color: white;
+  background-color: #3a3d4e;
+}
+
+#ppafooter a {
+  color: white;
+  text-decoration: underline;
+}
+
+ #ppafooter ul li{
+  list-style-type: none;
+  padding-bottom: 20px;
+}
+
+.ppa-ul-first-element{
+  font-weight: 600;
+}
+
+hr{
+  background-color: white;
+}
+
+.carousel-main-images{
+  position: absolute;
+  top: -150%;
+  left: 20%;
+  border-radius: 10px;
+  
+}
+
+.carousel-second-images{
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+  border-radius: 4px;
+  border-top-width: 2px;
+  width: auto;
+
+}
+
+.carousel-title
+{
+  font-weight: 700;
+  margin-bottom: 0.5%;
+}
+
+.carousel-paragragh{
+  font-weight: 200;
+}
+
+.cardImage{
+  margin-top: 30%;
+  margin-bottom: 10%;
+  width: 80%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.carousel-container{
+  width: 100%;
+}
+
+.carousel-elements{
+ display: flex;
+ margin-bottom: 15%;
+
+}
+
+#wmakeusunique span p {
+  margin-top: 10%;
+  padding-left: 10%;
+  font-size: 120%;
+  font-weight: 800;
+}
+
+#footericon span{
+  margin: 3%;
+}
+
+#readmorestories button{
+  background-color: #6268b8;
+  width: 40%;
+  margin-top: 3%;
+  padding-top: 5px ;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  border-radius: 40px;  
+  border: none;
+}
+
+#readmorestories button a{
+  color: white;
+}
+
+#readmorestories button a span {
+  padding-left: 3%;
+}
+
+.slide {
+  transform: scale(0.1);
+  transition: ease-in-out;
+  opacity: 0.5;
+}
+
+.active { 
+  transform: scale(1.2);
 }
 
 @keyframes App-logo-spin {

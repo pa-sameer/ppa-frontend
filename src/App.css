@@ -112,7 +112,7 @@ nav span a{
   background-color: #3a3d4e;
 }
 
-#ppafooter a {
+#needhelp a {
   color: white;
   text-decoration: underline;
 }
@@ -120,6 +120,10 @@ nav span a{
  #ppafooter ul li{
   list-style-type: none;
   padding-bottom: 20px;
+}
+
+#ppafooter ul li a, #footericon a {
+  color: white;
 }
 
 .ppa-ul-first-element{

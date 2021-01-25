@@ -59,9 +59,13 @@ class Contact extends React.Component{
             if(response.status === 400){
                 alert('Error '+response.status+': '+response.error);
             }
-            else{
+            else if(response.status === 200){
                 window.location.reload();
                 alert("We will contact you soon!");
+            }
+            else if(response.status === 409){
+                alert(response.error);
+                window.location.reload();
             }
         })
         .catch(error => console.error( error));

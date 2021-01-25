@@ -76,7 +76,7 @@ function Story(props){
                     <div className='row'>
                         <div className='col-5'>
                             <img className='carousel-main-images'src={item.images} width='70%' height='220%' />
-                            <a href='#'><img className='carousel-second-images' src='images/linkedin.svg' width='100%' height='60%'/></a>
+                            <a href='https://www.linkedin.com/in/pa-sameer/'><img className='carousel-second-images' src='images/linkedin.svg' width='100%' height='60%'/></a>
                         </div>
                         <div className=' offset-3 col-4 mt-4'>
                             <img src={item.companyLogo} width='100%' height='100%' />
